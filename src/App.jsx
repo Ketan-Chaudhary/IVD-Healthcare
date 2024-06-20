@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./Components/Navbar/Navbar";
+import Carousel from "./Components/Carousel/Carousel";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <Navbar />
+      <Carousel />
+    </>
+  );
+};
 
-export default App
+export default App;
